@@ -27,7 +27,7 @@ def revisar_resultados():
     except IOError as e:
         print(f'Error al leer el archivo: {e}')
 
-def seleccionar_proceso():
+def main():
     while True:
         print('Seleccione la operación que desea realizar:')
         print('1: Ingresar puntuación y comentario')
@@ -48,9 +48,7 @@ def seleccionar_proceso():
             print('Por favor, introduzca un valor entre el 1 y 3.')
 
 if __name__ == "__main__":
-    seleccionar_proceso()
-
-
+    main()
 
 
 
